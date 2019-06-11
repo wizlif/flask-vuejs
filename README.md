@@ -45,3 +45,5 @@ confirm that the supervisor process is running by checking the celery beat and c
 Use the `application.wsgi` for your mod_wsgi configuration. 
 9. Restart apache2 with `sudo apache2 reload`
 10. Open the configured server name in a browser to check if everything is operational.
+
+Note: Edit your `celeryd.conf`,`application.wsgi` and `apache2_mod_wsgi.conf` with respect to your system.
