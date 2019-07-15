@@ -5,7 +5,7 @@ from celery.schedules import crontab
 from celery.signals import task_postrun
 from celery.utils.log import get_task_logger
 from flask import current_app
-from flask.ext.mail import Message
+from flask_mail import Message
 
 from app.api_1_0.exceptions import HttpException, HttpLogger
 from app.function_utils import poll, MaxCallException
